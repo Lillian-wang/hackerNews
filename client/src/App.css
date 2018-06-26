@@ -1,3 +1,7 @@
+/** 
+ * Reset the form layout
+ */
+
 ul {
   padding: 9px 0;
   margin-top: 0;
@@ -7,9 +11,17 @@ a {
   text-decoration: none;
 }
 
+p {
+  margin: 2px 5px;
+}
+
+/**
+ * App style
+ */
+
 .App {
   text-align: left;
-  padding: 0 320px;
+  padding: 0 8vw;
   font-size: 12px;
   font-family: Verdana, Geneva, sans-serif;
 }
@@ -55,4 +67,11 @@ img {
 
 .article-title {
   color: #000000;
+}
+
+.login {
+  text-align: right;
+  float: right;
+  line-height: 23.96px;
+  margin-right: 6px;
 }
